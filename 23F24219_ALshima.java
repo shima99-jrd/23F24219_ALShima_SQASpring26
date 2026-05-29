@@ -20,7 +20,11 @@ public class JobMarketAnalysis {
 
         System.out.println("Enter Hiring Rate Percentage:");
         hiringRate = input.nextInt();
+        if(hiringRate < 0) {
 
+        System.out.println("Invalid Hiring Rate");
+
+                           }
         switch(industryChoice) {
 
             case 1:

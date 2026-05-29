@@ -29,6 +29,7 @@ public class JobMarketAnalysis {
 
                 if(hiringRate >= 70) {
                     System.out.println("High Job Demand");
+                    System.out.println("Recruitment trend is increasing based on analysis");
                 }
                 else {
                     System.out.println("Low Job Demand");

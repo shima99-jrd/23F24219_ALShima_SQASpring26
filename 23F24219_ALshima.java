@@ -39,7 +39,8 @@ public class JobMarketAnalysis {
             case 2:
 
                 System.out.println("Selected Industry: Healthcare");
-                System.out.println("Moderate Job Demand");
+                System.out.println("High Healthcare Recruitment Demand");
+                System.out.println("Updated based on new HR data");
 
                 break;
 
@@ -58,3 +59,4 @@ public class JobMarketAnalysis {
         input.close();
     }
 }
+
